@@ -29,9 +29,7 @@
      else{
     echo ' <li class="nav-item">
          <a class="nav-link" href="logout.php">Log Out</a>
-           </li>  
-           </ul>
-           </div>';
+           </li>';
      }
      echo '<li class="nav-item ">
      <a class="nav-link" href="contact.php">Contact <span class="sr-only">(current)</span></a>
@@ -39,6 +37,8 @@
    <li class="nav-item ">
      <a class="nav-link" href="portfolio.php">Portfolio <span class="sr-only">(current)</span></a>
    </li>
+    </ul>
+    </div>
    </nav>';
 
 ?>
